@@ -1,5 +1,40 @@
-header
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    background-color: rgb(61, 52, 95);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li{
+    list-style: none;
+    padding-left: 100px;
+    border: solid ;
+}
 
 a{
     text-decoration: none;
+    margin-left: 100px;
+    border: solid 1px rgb(96, 85, 139);
+    border-radius: 5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    background-color: rgb(96, 85, 139);
 }

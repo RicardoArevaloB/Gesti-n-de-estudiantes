@@ -26,15 +26,70 @@ li{
     border: solid ;
 }
 
+button{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 5px;
+    font-size: large;
+    border: solid 1px green;
+    background-color: rgba(0, 128, 0, 0.384);
+    cursor: pointer;
+    color: rgb(6, 68, 6);
+}
+button:hover{
+    background-color: rgba(0, 128, 0, 0.637);
+}
+
 a{
     text-decoration: none;
     margin-left: 100px;
-    border: solid 1px rgb(96, 85, 139);
     border-radius: 5px;
     height: 25px;
     display: flex;
     align-items: center;
     padding: 5px;
     color: white;
+}
+a:hover{
     background-color: rgb(96, 85, 139);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(96, 85, 139, 0.205);
+    border-radius: 7px;
+    height: 50vh;
+    width: 50vw;
+}
+
+h2{
+    color: rgb(41, 45, 94);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 30vw;
+    height: 15rem;
+}
+
+input{
+    width: 30vw;
+    height: 3rem;
+    border-radius: 5px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
 }
